@@ -8,15 +8,22 @@
   
   <name>AWS Resource APIs for Java Parent POM</name>
   <description>An object-oriented resource object abstraction on top of the AWS SDK for Java.</description>
-  <url>https://github.com/awslabs/aws-sdk-java-resources</url>
+  <url>https://github.com/jdevhari/aws-sdk-java-resources</url>
 
   <scm>
-    <connection>scm:git:ssh://git@github.com/awslabs/aws-sdk-java-resources.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/awslabs/aws-sdk-java-resources.git</developerConnection>
-    <url>https://github.com/awslabs/aws-sdk-java-resources</url>
+    <connection>scm:git:ssh://git@github.com/jdevhari/aws-sdk-java-resources.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jdevhari/aws-sdk-java-resources.git</developerConnection>
+    <url>https://github.com/jdevhari/aws-sdk-java-resources</url>
     <tag>HEAD</tag>
   </scm>
 
+  <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+	
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -27,8 +34,8 @@
   
   <developers>
     <developer>
-      <id>amazonwebservices</id>
-      <organization>Amazon Web Services</organization>
+      <id>jdevhari</id>
+      <organization>jdevhari</organization>
       <organizationUrl>https://aws.amazon.com</organizationUrl>
       <roles>
         <role>developer</role>
